@@ -1,0 +1,46 @@
+body {
+    background-color: #000;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    top:50%;
+    left:50%;
+    height:100vh;
+}
+
+
+
+
+#noTrespassingOuterBarG{
+    border-radius: 15px;;
+	height:78px;
+	width:624px;
+	border:4px solid #e82525;
+	overflow:hidden;
+	background-color:#17ba68
+}
+.noTrespassingBarLineG{
+	background-color:#e82525;
+	float:left;
+	width:55px;
+	height:468px;
+	margin-right:94px;
+	margin-top:-109px;
+	transform:rotate(45deg);
+}
+.noTrespassingAnimationG{
+	width:920px;
+	animation-name:noTrespassingAnimationG;
+	animation-duration:0.6s;
+	animation-iteration-count:infinite;
+	animation-timing-function:linear;
+}
+#noTrespassingFrontBarG{}
+@keyframes noTrespassingAnimationG{
+	0%{
+		margin-left:0px;
+	}
+	100%{
+		margin-left:-148px;
+	}
+}
